@@ -1,0 +1,19 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "Tetris live",
+  "main": "server.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/El-dinero/TetrisJS.git"
+  },
+  "author": "El_dinero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/El-dinero/TetrisJS/issues"
+  },
+  "homepage": "https://github.com/El-dinero/TetrisJS#readme"
+}
