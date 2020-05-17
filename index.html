@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>sdf</h1>
+    <div id="game">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <div>Level: <span id="level">0</span></div>
+      <div>Score: <span id="score">0</span></div>
+
+      <div class="main"></div>
+      <div id="game-over">Game over</div>
+      <div id="next-tetro"></div>
+    </div>
     <script src="javascripts/main.js"></script>
   </body>
 </html>
